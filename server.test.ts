@@ -17,7 +17,7 @@ class Test {
   async test2() {
     console.log("Launching in 3... 2... 1... 🚀");
     const response = await fetch('http://127.0.0.1:18000/');
-    assertStrictEq(response.ok, true);
+    assertStrictEq(response.ok, false);
     return response;
   }
 }
